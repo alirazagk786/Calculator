@@ -1,0 +1,66 @@
+@media (max-width: 600px) {
+  .content {
+    width: 90% !important;
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  width: 28%;
+  border: 1px solid;
+}
+.row1 {
+  width: 100%;
+  margin: 10px 0;
+}
+.row1 input {
+  width: 72%;
+  height: 7vh;
+  text-align: end;
+  font-size: 1.2rem;
+  margin-top: 4px;
+  background-color: white;
+}
+.row1 button {
+  height: 8vh;
+  width: 21%;
+  margin: 0px;
+}
+.btn-div {
+  display: flex;
+  justify-content: space-evenly;
+}
+button {
+  margin: 4px 6px;
+  width: 18%;
+  border: none;
+  border-radius: 10px;
+  height: 8vh;
+  width: 44%;
+  font-size: 1.5rem;
+}
+button:hover {
+  color: white;
+  background-color: black;
+  font-size: 1.5rem;
+}
+.row4 {
+  padding-bottom: 10px;
+}
+.btn-black {
+  background-color: black;
+  color: white;
+}
